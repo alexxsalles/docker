@@ -1,0 +1,38 @@
+{
+    "version": "2",
+    "templates": [
+      {
+        "type": 2,
+        "title": "SuiteCRM",
+        "description": "Application de gestion de la relation client open-source.",
+        "categories": ["CRM"],
+        "enabled": true,
+        "price": 19,
+        "trial": 7,
+        "logo": "https://i.imgur.com/3lvjIbM.png",
+        "repository": {
+                "url": "https://github.com/ethibox/awesome-stacks",
+                "stackfile": "stacks/suitecrm.yml"
+            },
+        "website": "https://suitecrm.com",
+        "env": [
+            {
+                "name": "ADMIN_EMAIL",
+                "label": "Admin email",
+                "default": "admin@example.com"
+            },
+            {
+                "name": "ADMIN_USERNAME",
+                "label": "Admin username",
+                "default": "admin",
+                "disabled": true
+            },
+                {
+                "name": "ADMIN_PASSWORD",
+                "label": "Admin password",
+                "default": "myp@ssw0rd",
+                "type": "password",
+                "disabled": true
+                }
+            ]
+        }
